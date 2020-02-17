@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ИПКС | Обучение и аттестация ИТР</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script> -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-shadow">
+            <div class="container header__container">
+                <div class="header__left">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="Логотип">
+                    </a>
+                    <div class="header__title">
+                        Институт повышения<br>
+                        <span>квалификации специалистов</span>
+                    </div>
+                </div>
+                <div class="header__center">
+                    <div class="header__phones">
+                        <a href="tel:+74952215331" class="header__phone">+7 (495) 012-53-00</a>,
+                        <a href="tel:+74953800822" class="header__phone">+7 (495) 380 08 22</a>
+                    </div>
+                    <div class="header__line"></div>
+                    <div class="header__address">
+                        г. Москва, Волоколамское<br>
+                        шоссе, 73, к. 727
+                    </div>
+                </div>
+                <div class="header__right">
+                    <a href="#" class="btn-nav-mobile">
+                        &#9776;
+                    </a>
+                    <nav class="nav">
+                        <a href="about.html" class="nav__link">
+                            <img src="images/about_icon.png" alt="О нас">
+                            <p>О нас</p>
+                        </a>
+                        <a href="contacts.html" class="nav__link">
+                            <img src="images/contacts_icon.png" alt="Контакты">
+                            <p>Контакты</p>
+                        </a>
+                        <a href="prices.html" class="nav__link">
+                            <img src="images/prices_icon.png" alt="Цены">
+                            <p>Цены</p>
+                        </a>
+                        <a href="#" class="nav__link btn-request">
+                            <img src="images/request_icon.png" alt="Заявка">
+                            <p>Заявка</p>
+                        </a>
+                    </nav>
+                    <div class="header__buttons">
+                        <a href="#" class="btn header__call-me btn-call-me">
+                            <div class="btn-shadow">
+                                Перезвонить мне
+                            </div>
+                        </a>
+                        <div class="header__accept">
+                            <img src="images/accept_icon.png" alt="Галочка">
+                        </div>
+                        <a href="http://online.ipks.ru/" class="btn header__login">
+                            <div class="btn-shadow">
+                                <div class="btn__icon"><img src="images/login.png" alt="Вход"></div>
+                                <p>Вход в дистанционное обучение</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-mobile">
+        <a href="#" class="btn-nav-mobile-close">
+            &#10006;
+        </a>
+        <div class="header__left">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Логотип">
+            </a>
+            <div class="header__title">
+                Институт повышения<br>
+                <span>квалификации специалистов</span>
+            </div>
+        </div>
+        <div class="header__center">
+            <div class="header__phones">
+                <a href="tel:+74952215331" class="header__phone">+7 (495) 012-53-00,</a> 
+                <a href="tel:+74953800822" class="header__phone">+7 (495) 380 08 22</a>
+            </div>
+            <div class="header__line"></div>
+            <div class="header__address">
+                г. Москва, Волоколамское<br>
+                шоссе, 73, к. 727
+            </div>
+        </div>
+        <div class="header__right">
+            <nav class="nav">
+                <a href="about.html" class="nav__link">
+                    <img src="images/about_icon.png" alt="О нас">
+                    <p>О нас</p>
+                </a>
+                <a href="contacts.html" class="nav__link">
+                    <img src="images/contacts_icon.png" alt="Контакты">
+                    <p>Контакты</p>
+                </a>
+                <a href="prices.html" class="nav__link">
+                    <img src="images/prices_icon.png" alt="Цены">
+                    <p>Цены</p>
+                </a>
+                <a href="#" class="nav__link btn-request">
+                    <img src="images/request_icon.png" alt="Заявка">
+                    <p>Заявка</p>
+                </a>
+            </nav>
+            <div class="header__buttons">
+                <a href="#" class="btn header__call-me btn-call-me">
+                    <div class="btn-shadow">
+                        Перезвонить мне
+                    </div>
+                </a>
+                <div class="header__accept">
+                    <img src="images/accept_icon.png" alt="Галочка">
+                </div>
+                <a href="http://online.ipks.ru/" target="_blank" class="btn header__login">
+                    <div class="btn-shadow">
+                        <div class="btn__icon"><img src="images/login.png" alt="Вход"></div>
+                        <p>Вход в дистанционное обучение</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <section class="other-button">
+            <div class="container">
+                <div class="other-button__items">
+                    <a href="job-training.html" class="other-button__item">
+                        Обучение по<br>
+                        рабочим профессиям
+                    </a>
+                    <div class="other-button__arrow">
+                        <img src="images/button-arrow_left.png" alt="">
+                    </div>
+                    <a href="training-and-certification.html" class="other-button__item other-button__item_active">
+                        Обучение и аттестация ИТР
+                    </a>
+                    <div class="other-button__arrow">
+                        <img src="images/button-arrow_right.png" alt="">
+                    </div>
+                    <a href="workshops.html" class="other-button__item">
+                        Семинары
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="directions">
+            <div class="container">
+                <h2 class="light-title">Направления</h2>
+                <div class="directions__items">
+                    <div class="directions__item"><a href="#security_labor">Охрана труда</a></div>
+                    <div class="directions__item"><a href="#fire_safety">МЧС</a></div>
+                    <div class="directions__item"><a href="#ecological_security">Экологическая безопасность</a></div>
+                    <div class="directions__item"><a href="#energetic_security">Энергетическая безопасность</a></div>
+                </div>
+                <div class="directions__hr">
+                    <img src="images/direction_1.png" alt="Человек">
+                </div>
+                <div class="directions__items">
+                    <div class="directions__item"><a href="#accounting">Бухгалтерия</a></div>
+                    <div class="directions__item"><a href="#staff_department">Отдел персонала</a></div>
+                    <div class="directions__item"><a href="#social_workes">Социальные работники</a></div>
+                    <div class="directions__item"><a href="#state">ГосЗакупки, ГосУправление</a></div>
+                </div>
+                <div class="directions__hr">
+                    <img src="images/direction_2.png" alt="Человек">
+                </div>
+                <div class="directions__items">
+                    <div class="directions__item"><a href="#construction">Строительство</a></div>
+                    <div class="directions__item"><a href="#transport">Транспорт</a></div>
+                    <div class="directions__item"><a href="#other">Другие направления</a></div>
+                </div>
+                <div class="directions__hr">
+                    <img src="images/arrow_down.png" alt="Стрелка">
+                </div>
+                <form id="training-and-certification" class="directions__search">
+                    <input type="text" name="search-string" placeholder="Поиск" class="directions__input search-input">
+                    <button type="submit" class="directions__button">
+                        <img src="images/search_icon.png" alt="Поиск">
+                    </button>
+                </form>
+                <div class="programs__item">
+                    <div class="programs__name">Охрана труда для руководителей и специалистов</div>
+                    <div class="programs__hours">40 ч.</div>
+                    <div class="programs__price">от 2500,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                 <div class="programs__item">
+                    <div class="programs__name">Охрана труда и техника безопасности</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 5500,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name">Охрана труда при погрузочно-разгрузочных<br>
+                        работах и размещении грузов</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 2900,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name">Оказание первой помощи при несчастных<br>
+                             случаях на производстве</div>
+                    <div class="programs__hours">24 ч.</div>
+                    <div class="programs__price">от 1000,00 ₽</div>
+                     <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name"><a href="#" class="programs-techno">Профессиональная переподготовка специалиста по охране
+                            труда по программе: "Техносферная безопасность"</a>
+                        <img src="images/accept_icon_red.png" alt="Галочка">
+                    </div>
+                    <div class="programs__hours">256 ч.</div>
+                    <div class="programs__price">от 14000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name">Внеочередная проверка знаний<br>
+                          Правил по охране труда в строительстве</div>
+                    <div class="programs__hours">24 ч.</div>
+                    <div class="programs__price">от 1300,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                    <div class="programs__item ">
+                    <div class="programs__name">Организация и порядок проведение предсменных, предрейсовых и послесменных, послерейсовых мед. осмотров</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 4000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                    <div class="programs__item ">
+                    <div class="programs__name">Внеочередная проверка знаний<br> Правил по охране труда на автомобильном транспорте</div>
+                    <div class="programs__hours">24 ч.</div>
+                    <div class="programs__price">от 1300,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>
+                    <div class="programs__item ">
+                    <div class="programs__name">Инструктор по обучению навыкам оказания первой помощи при несчастных случаях на производстве</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 5000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="security_labor">Подать заявку</a>
+                    </div>
+                </div>                
+                <div class="programs__hr">
+                     <div class="intelligence__circle"></div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name">Пожарно-технический минимум</div>
+                    <div class="programs__hours">28 ч.</div>
+                    <div class="programs__price">от 2100,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="fire_safety">Подать заявку</a>
+                    </div> 
+                 </div>
+                 <div class="programs__item ">
+                    <div class="programs__name">Пожарно-технический минимум<br>
+                        (пожароопасное производство)</div>
+                    <div class="programs__hours">16 ч.</div>
+                    <div class="programs__price">от 1500,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="fire_safety">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name">Обучение членов добровольных пожарных дружин</div>
+                    <div class="programs__hours">40 ч.</div>
+                    <div class="programs__price">от 2300,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="fire_safety">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name">Монтаж, наладка, тех. обслуживание и ремонт<br>
+                         систем противопожарной защиты</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 3500,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="fire_safety">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name"><a href="#" class="programs-emercom">«Гражданская оборона и защита от чрезвычайных ситуаций<br>
+                                природного и техногенного характера»</a><img src="images/accept_icon_red.png" alt="Галочка"></div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 3500,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="fire_safety">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name"><a href="#" class="programs-emercom__terror">«Противодействие терроризму в организациях»</a><img src="images/accept_icon_red.png" alt="Галочка"></div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 5000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="fire_safety">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__hr">
+                     <div class="intelligence__circle"></div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name">Охрана окружающей среды на предприятиях строительного комплекса</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 6000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div> 
+                <div class="programs__item ">
+                    <div class="programs__name">Управление природопользованием и охрана окружающей среды</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 5700,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item ">
+                    <div class="programs__name">Обращение с отходами I-IV класса опасности</div>
+                    <div class="programs__hours">112 ч.</div>
+                    <div class="programs__price">от 6700,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name">Экологический аудит</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 7000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name">Обеспечение экологической безопасности руководителями и специалистами общехозяйственных систем управления</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 5700,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                 </div>
+                 <div class="programs__item">
+                    <div class="programs__name">Обеспечение экологической безопасности при работах в области обращения с опасными отходами</div>
+                    <div class="programs__hours">112 ч.</div>
+                    <div class="programs__price">от 6000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name"><a href="#" class="programs-ecolog">Профессиональная переподготовка для Эколога по программе:<br>
+                                «Экология и рациональное природопользование» (диплом)</a>
+                            <img src="images/accept_icon_red.png" alt="Галочка"></div>
+                    <div class="programs__hours">256 ч.</div>
+                    <div class="programs__price">от 14000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name">Обеспечение экологической безопасности руководителями и специалистами экологических служб и систем экологического контроля</div>
+                    <div class="programs__hours">200 ч.</div>
+                    <div class="programs__price">от 10000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item">
+                    <div class="programs__name">Специалист по вопросам благоустройства и озеленения территории</div>
+                    <div class="programs__hours">72 ч.</div>
+                    <div class="programs__price">от 5000,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="ecological_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__hr">
+                     <div class="intelligence__circle"></div>
+                </div> 
+                <div class="programs__item">
+                    <div class="programs__name">Правила технической эксплуатации электроустановок потребителей до 1000В (ежегодная переаттестация)</div>
+                    <div class="programs__hours"></div>
+                    <div class="programs__price">от 5500,00 ₽</div>
+                    <div class="programs__button">
+                        <a href="#" class="programs-btn" name="energetic_security">Подать заявку</a>
+                    </div>
+                </div>
+                <div class="programs__item">
+                        <div class="programs__name">II группа до 1000В (первичная)</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 5500,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="energetic_security">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">Со II группы на III до 1000В</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 5500,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="energetic_security">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">С III на IV группу до 1000В</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 5500,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="energetic_security">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">III-IV до и выше 1000В</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 7500,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="energetic_security">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">Техническая эксплуатация тепловых энергоустановок</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 6500,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="energetic_security">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">Проведение энергетических обследований с целью повышения энергетической эффективности и энергосбережения</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 4000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="energetic_security">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__hr">
+                        <div class="intelligence__circle"></div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">Бухгалтер бюджетного учреждения</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 4000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="accounting">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">Бухгалтер по расчету заработной платы</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 4000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="accounting">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item">
+                        <div class="programs__name">Налоги и налогообложение</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 4000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="accounting">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Профессиональная переподготовка по программе: «Бухгалтерский учет и налогообложение»</div>
+                        <div class="programs__hours">256 ч.</div>
+                        <div class="programs__price">от 12000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="accounting">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name"><a href="#" class="programs-accountant">Ежегодное подтверждение аттестата Профессионального бухгалтера ИПБР</a><img src="images/accept_icon_red.png" alt="Галочка"></div>
+                        <div class="programs__hours">40 ч.</div>
+                        <div class="programs__price">от 6100,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="accounting">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__hr">
+                        <div class="intelligence__circle"></div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Трудовое законодательство Российской Федерации</div>
+                        <div class="programs__hours">144 ч.</div>
+                        <div class="programs__price">от 5000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="staff_department">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Кадровое делопроизводство в современной организации</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 3000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="staff_department">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Управление персоналом в современной организации</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 3000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="staff_departmentg">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                         <div class="programs__name"><a href="#" class="programs-military">Воинский учет и бронирование граждан, пребывающих в запасе</a><img src="images/accept_icon_red.png" alt="Галочка"></div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 3600,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="staff_department">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Профессиональная переподготовка по программе: "Специалист по управлению персоналом"</div>
+                        <div class="programs__hours">256 ч.</div>
+                        <div class="programs__price">от 12000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="staff_department">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Мобилизационная подготовка предприятий и организаций</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 3000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="staff_department">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__hr">
+                        <div class="intelligence__circle"></div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Профессиональная переподготовка по курсу: «Социальная работа в системе социальных служб»</div>
+                        <div class="programs__hours">256 ч.</div>
+                        <div class="programs__price">от 10000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="social_workes">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Технологии организации и реализации социального обслуживания населения</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 3000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="social_workes">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Профессиональная переподготовка по курсу: "Специалист по социальной работе</div>
+                        <div class="programs__hours">256 ч.</div>
+                        <div class="programs__price">от 10000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="social_workes">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Профессиональная переподготовка по курсу: "Руководитель организации социального обслуживания"</div>
+                        <div class="programs__hours">256 ч.</div>
+                        <div class="programs__price">от 10000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="social_workes">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__hr">
+                        <div class="intelligence__circle"></div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name"><a href="#" class="programs-public-cell">Профессиональная переподготовка по курсу: «Управление государственными и муниципальными закупками»</a><img src="images/accept_icon_red.png" alt="Галочка"></div>
+                        <div class="programs__hours">256 ч.</div>
+                        <div class="programs__price">от 12000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="state">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Управление государственными и муниципальными закупками</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 3000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="state">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Контрактная система в сфере закупок товаров, работ и услуг для обеспечения государственных и муниципальных нужд</div>
+                        <div class="programs__hours">144 ч.</div>
+                        <div class="programs__price">от 5000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="state">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Противодействие коррупции в органах местного самоуправления</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 4000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="state">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Профессиональная переподготовка по курсу: «Государственное и муниципальное управление»</div>
+                        <div class="programs__hours">5 ч.</div>
+                        <div class="programs__price">от 14000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="state">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__hr">
+                        <div class="intelligence__circle"></div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Правила проведения земляных работ, установки временных ограждений, размещения временных объектов в городе Москве</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 2300,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="construction">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">«Деятельность по строительству зданий и сооружений»</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 6000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="construction">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">«Деятельность по проектированию зданий и сооружений»</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 6000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="construction">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">«Техническая эксплуатация зданий и сооружений»</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 2700,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="construction">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name"> БЕЗОПАСНОСТЬ СТРОИТЕЛЬСТВА: БС01-БС16</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 6000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="construction">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">ПРОЕКТИРОВАНИЕ П01- П18</div>
+                        <div class="programs__hours"></div>
+                        <div class="programs__price">от 6000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="construction">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__hr">
+                        <div class="intelligence__circle"></div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Профессиональная переподготовка: "Контролер технического состояния автотранспортных средств"</div>
+                        <div class="programs__hours">256 ч.</div>
+                        <div class="programs__price">от 14000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="transport">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Защитное вождение</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 5000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="transport">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Ежегодные занятия с водителями организаций</div>
+                        <div class="programs__hours">20 ч.</div>
+                        <div class="programs__price">от 1000,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="transport">Подать заявку</a>
+                        </div>
+                    </div>
+                    <div class="programs__hr">
+                        <div class="intelligence__circle"></div>
+                    </div>
+                    <div class="programs__item ">
+                        <div class="programs__name">Проведение дезинфекционных, дезинсекционных и дератизационных работ в организациях различного профиля</div>
+                        <div class="programs__hours">72 ч.</div>
+                        <div class="programs__price">от 4500,00 ₽</div>
+                        <div class="programs__button">
+                            <a href="#" class="programs-btn" name="other">Подать заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__left">
+                <a href="tel:+74952215331" class="footer__phone">
+                    <div class="footer__phone-icon">
+                        <img src="images/phone_icon.png" alt="Телефон">
+                    </div>
+                    <div class="footer__phone-link">+7 (495) 221-5331 (отдел продаж)</div>
+                </a>
+                <a href="tel:+74953800822" class="footer__phone">
+                    <div class="footer__phone-icon">
+                        <img src="images/phone_icon.png" alt="Телефон">
+                    </div>
+                    <div class="footer__phone-link">+7 (495) 380-0822 (учебная часть)</div>
+                </a>
+            </div>
+            <div class="footer__center">
+                <div class="footer__address">
+                    <img src="images/map_icon.png" alt="Маркер">
+                    г. Москва,<br>
+                    Волоколамское шоссе, 73, каб. 727
+                </div>
+                <a href="mailto:info@ipks.ru" class="footer__email">
+                    <img src="images/email_icon.png" alt="Email">
+                    info@ipks.ru
+                </a>
+            </div>
+            <div class="footer__right">
+                <div class="footer__right-header">© 2016 - ООО "ИПКС"</div>
+                <div class="footer__right-body">
+                    ГК "Институт повышения квалификации специалистов"<br>
+                    с 2002 года успешно работает в сфере обучения<br>
+                    работников государственных и коммерческих<br>
+                    предприятий и организаций
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="form-wrapper call-me-wrapper">
+        <div class="form-wr call-me">
+            <form class="form" id="call-me">
+                <div class="form__title">Заказать звонок</div>
+                <div class="form__label">
+                    <input class="form__input" type="text" name="name" id="name">
+                    <div class="form__placeholder">Ваше имя</div>
+                </div>
+                <div class="form__label">
+                    <input class="form__input form__phone" type="text" name="phone" id="phone">
+                    <div class="form__placeholder">Телефон</div>
+                </div>
+                <button class="form__button" type="submit">Отправить</button>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper request-wrapper">
+        <div class="form-wr request">
+            <form class="form" id="request">
+                <div class="form__title">Запись на обучение</div>
+                <div class="form__subtitle"></div>
+                <div class="form__label">
+                    <input class="form__input" type="text" name="name" id="name">
+                    <div class="form__placeholder">Ваше имя</div>
+                </div>
+                <div class="form__label">
+                    <input class="form__input" type="email" name="email" id="email">
+                    <div class="form__placeholder">Email</div>
+                </div>
+                <div class="form__label">
+                    <input class="form__input form__phone" type="text" name="phone" id="phone">
+                    <div class="form__placeholder">Телефон</div>
+                </div>
+                <div class="form__label">
+                    <input class="form__input" type="text" name="organization" id="organization">
+                    <div class="form__placeholder">Организация</div>
+                </div>
+                <div class="form__label">
+                    <input class="form__input" type="text" name="participants" id="participants">
+                    <div class="form__placeholder">Кол-во участников</div>
+                </div>
+                <button class="form__button" type="submit">Отправить</button>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper__text request-wrapper-techno">
+        <div class="form-wr__text request__text">
+            <form class="form-box" id="request">
+                <div class="form-text">
+                    <p>Программа:</p>
+                    <div class="form-listmark">
+                        <ul>
+                            <li>Общие вопросы по охране труда. Трудовое законодательство</li>
+                            <li>Производственная санитария и гигиена труда</li>
+                            <li>Производственная безопасность</li>
+                            <li>Управление безопасностью труда</li>
+                            <li>Менеджмент охраны труда</li>
+                            <li>Промежуточная аттестация по учебному курсу</li>
+                            <li>Промышленная экология</li>
+                            <li>Защита в чрезвычайных ситуациях</li>
+                            <li>Специальная оценка условий труда</li>
+                            <li>Экономика безопасности труда</li>
+                            <li>Первая помощь при несчастных случаях на производстве</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="btn-price header__call-me btn-call-me form__close-btn">Цена: 14 000 рублей</a>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper__text request-wrapper-ecolog">
+        <div class="form-wr__text request__text">
+            <form class="form-box" id="request">
+                <div class="form-text">
+                    <p>Программа:</p>
+                    <div class="form-listmark">
+                        <ul>
+                            <p>Модуль 1. Общие вопросы экологии и рационального природопользования:</p>
+                            <li>Общие требования в области охраны окружающей среды и экологической безопасности.</li>
+                            <li>Социально - экологические проблемы природопользования и т.д.</li>
+                            <p>Модуль 2. Охрана окружающей среды:</p>
+                            <li>Охрана водных ресурсов</li>
+                            <li>Охрана атмосферного воздуха</li>
+                            <li>Охрана земель и т.д.</li>
+                            <p>Модуль 3. Обращение с опасными отходами:</p>
+                            <li>Основы законодательства в области обращения с отходами в Российской Федерации</li>
+                            <li>Обращение с отходами I-IV классов опасности</li>
+                            <li>Нормирование воздействия отходов на окружающую среду и т.д.</li>
+                        </ul>                       
+                    </div>
+                </div>
+                <a href="#" class="btn-price header__call-me btn-call-me form__close-btn" >Цена: 14 000 рублей</a>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper__text request-wrapper-emercom">
+        <div class="form-wr__text request__text">
+            <form class="form-box" id="request">
+                <div class="form-text">
+                    <p>Программа:</p>
+                    <div class="form-listmark">
+                        <ul>
+                            <li>Законодательство Российской Федерации в области гражданской обороны, защиты населения от чрезвычайных ситуаций природного и техногенного характера и обеспечения пожарной безопасности.</li>
+                            <li>Чрезвычайные ситуации, характерные для региона, присущие им опасности для населения и возможные способы защиты от них работников организации.</li>
+                            <li>Сигналы оповещения об опасностях, порядок их доведения до населения и действия по ним работников организации.</li>
+                            <li>Средства коллективной и индивидуальной защиты работников организации, а также первичные средства пожаротушения, имеющиеся в организации.</li>
+                            <li>Действия работников организации по предупреждению аварий, катастроф и пожаров на территории организации и в случае их возникновения.</li>
+                            <li>Действия работников организации при угрозе и возникновении на территории региона чрезвычайных ситуаций природного и биолого-социального характера.</li>
+                        </ul>                       
+                    </div>
+                </div>
+                <a href="#" class="btn-price header__call-me btn-call-me form__close-btn" >Цена: 3500 рублей</a>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper__text request-wrapper-emercom__terror">
+        <div class="form-wr__text request__text">
+            <form class="form-box" id="request">
+                <div class="form-text">
+                    <p>Программа:</p>
+                    <div class="form-listmark">
+                        <ul>
+                            <li>Нормативно-правовая база по противодействию терроризму и антитеррористической защищенности</li>
+                            <li>Национальный антитеррористический комитет</li>
+                            <li>Антитеррористическая безопасность</li>
+                            <li>Категорирование объектов по степени их потенциальной опасности</li>
+                            <li>Меры предупредительного характера в организации при получении информации об угрозе взрыва или обнаружении взрывчатых веществ</li>
+                            <li>Разработка паспорта безопасности, паспорта антитеррористической защищенности объекта и других документов</li>
+                            <li>Порядок оповещения об опасности и информирования населения в местах массового скопления</li>
+                        </ul>                       
+                    </div>
+                </div>
+                <a href="#" class="btn-price header__call-me btn-call-me form__close-btn" >Цена: 5000 рублей</a>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper__text request-wrapper-accountant">
+        <div class="form-wr__text request__text">
+            <form class="form-box" id="request">
+                <div class="form-text">
+                    <p>Информация:</p>
+                    <div class="form-listmark">
+                        	<p>Мы являемся аккредитованным учебным центром при ИПБ России.</p>
+                            <p>Наш номер в реестре ИПБ России – 891.</p>
+                            <p>Если Вы являетесь профессиональным бухгалтером ИПБ России, Вы можете пройти у нас повышение квалификации для подтверждения своего аттестата.</p>
+                            <p>Группы повышения квалификации формируются раз в два месяца.</p>
+                            <p>Программу обучения, даты ближайшей группы повышения квалификации Вы можете уточнить у наших менеджеров по телефону: (495)012-53-00</p>
+                            <p>Документы  по итогам обучения:</p>   
+                        <ul>
+                        	<li>Комплект закрывающих документов для бухгалтерии (договор, акт)</li>
+                            <li>Сертификат ИПБ России</li>
+                        </ul>                       
+                    </div>
+                </div>
+                <a href="#" class="btn-price header__call-me btn-call-me form__close-btn" >Цена: 6100 рублей</a>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper__text request-wrapper-public-cell">
+        <div class="form-wr__text request__text">
+            <form class="form-box" id="request">
+                <div class="form-text">
+                    <p>Программа:</p>
+                    <div class="form-listmark">
+                        <ul>
+                        	<li>Обеспечение закупок для государственных, муниципальных и корпоративных служб</li>
+                        	<li>Планирование и обоснование закупок</li>
+                        	<li>Осуществление закупок</li>
+                        	<li>Экспертиза результатов закупок, приемка контракта</li>
+                            <li>Контроль в сфере закупок</li>
+                        </ul>                       
+                    </div>
+                </div>
+                <a href="#" class="btn-price header__call-me btn-call-me form__close-btn" >Цена: 12 000 рублей</a>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <div class="form-wrapper__text request-wrapper-military">
+        <div class="form-wr__text request__text">
+            <form class="form-box" id="request">
+                <div class="form-text">
+                    <p>Программа:</p>
+                    <div class="form-listmark">
+                        <ul>
+                        	<li>Общие вопросы воинского учета</li>
+                        	<li>Создание системы воинского учета в организации</li>
+                        	<li>Документы при ведении воинского учета</li>
+                        	<li>Обязанности граждан, подлежащих воинскому учету</li>
+                        	<li>Обязанности сотрудников, ведущих воинский учет</li>
+                        	<li>Штрафы при неправильном оформлении организацией отчетов и несоблюдении сроков подачи</li>
+                        	<li>Бронирование граждан, пребывающих в запасе: инструкция</li>
+                        	<li>Правила и рекомендации при бронировании граждан, пребывающих в запасе.</li>
+                        	<li>Формы документов при бронировании граждан, пребывающих в запасе.</li>
+                            <li>Тестирование по курсу</li>
+                        </ul>                       
+                    </div>
+                </div>
+                <a href="#" class="btn-price header__call-me btn-call-me form__close-btn" >Цена: 3600 рублей</a>
+                <a href="#" class="form__close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jcfilter.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
